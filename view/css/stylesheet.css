@@ -93,7 +93,6 @@ p {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    font-weight: bold;
     border-bottom: 1px solid gray;
 }
 #menuTd ul li:last-child {
@@ -101,7 +100,7 @@ p {
 }
 #menuTd ul li a {
     text-decoration: none;
-    color: #000;
+    color: #aaa;
 }
 #menuTd ul li a:hover {
     text-decoration: none;
