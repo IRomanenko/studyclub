@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* reset defoult styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+body {
+line-height: 1;
+color: black;
+background: #0372a0;
+}
+ol, ul {
+list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+border-collapse: separate;
+border-spacing: 0;
+}
+caption, th, td {
+text-align: left;
+font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: "";
+}
+blockquote, q {
+quotes: "" "";
+}
+
+body {
+    background: url(/view/img/background.jpg) repeat;
+}
+#mailConteiner {
+    width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: #53c1e6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+p {
+    margin: 15px 0;
+}
+
+/*header styles*/
+#header {
+    text-align: center;
+    margin-top: 15px;
+}
+#logoLink {
+    position: absolute;
+    height: 108px;
+    width: 500px;
+    z-index: 999;
+}
+
+/*body*/
+#content {
+    background-color: #f0f0f0;
+    min-height: 750px;
+    margin: 20px 0 20px 0;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    padding: 35px 15px 15px 15px;
+}
+#menuTd {
+     width: 200px;
+}
+#menuTd ul li {
+    padding: 17px 0 17px 0;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+#menuTd ul li:last-child {
+    border-bottom: none;
+}
+#menuTd ul li a {
+    text-decoration: none;
+    color: #000;
+}
+#menuTd ul li a:hover {
+    text-decoration: none;
+    color: #53c1e6;
+}
+
+/*Content TD*/
+#contentTd {
+    padding: 0 40px;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+.signature {
+    text-align: right;
+}
+.clubcard {
+    float: right;
+    margin: 0 0 10px 10px;
+}
